@@ -76,6 +76,7 @@ footer {
 
 .main {
  width: 960px;
+ max-width: 100;
  border: 1px solid #cccccc;
  background-color: #ffffff;
  padding: 30px;
@@ -277,7 +278,6 @@ p {
     max-width: 65%;
     height: auto;
     float: left;
-    overflow: hidden;
   }
 
 p {
@@ -320,7 +320,7 @@ img {
   float: none;
   text-align: center;
 }
- .main {
+ .main .wrapper {
     width: 100%;
     padding: 20px;
     float: none;
@@ -336,7 +336,7 @@ p{
 }
 
 .footer {
-  margin-top: 100%;
+  margin-top: 200%;
 }
  
 }
